@@ -1,0 +1,62 @@
+
+.girls-job-deatils-outer { padding-top: 15px; background:url(../images/girls-detail-bg.jpg) repeat; padding-bottom:10px;}
+.girls-job-details-pro-view{ float:left;}
+.girls-job-details-pro-view figure { display: table-cell;height: 114px;margin-right: 25px; vertical-align: top; width: 114px;}
+.girls-job-view-div { display: table-cell; padding-left: 17px; padding-top: 26px; vertical-align: top;}
+.girls-job-view-div h1{ font:25px/25px 'roboto_slabbold'; color:#2e3338; text-transform:uppercase; padding-bottom:8px;}
+.girls-job-view-div .review-text{ font:12px/12px 'montserratregular'; color:#666872; text-transform:uppercase; display:inline-block; padding-right:8px;}
+.girls-job-view-div .review-count{background:url(../images/review-count.png) no-repeat; width:31px; height:35px; display:inline-block; font:13px/29px 'roboto_slabregular'; color:#fff; text-align:center;}
+.girls-job-services{ float:right; padding-top:11px;}
+.girls-job-services label{ font:12px/12px 'montserratregular'; color:#666872; text-transform:uppercase; padding-bottom:8px; display:inline-block;}
+.girls-job-services li{ width:47px; height:47px; background:#c33db0; float:left; border-radius:50%; text-align:center; position:relative; margin-right:5px;}
+.girls-job-services li:hover .services-hvr{ display:block; background:#fff; width:150px; border:1px solid #ededed; padding:5px 10px; position:absolute; bottom:-35px; left:-60px;}
+.girls-job-services li .services-hvr{ display:none;}
+.girls-job-services li:last-child{ margin-right:0px;}
+.girls-job-services li img{   bottom: 0;height: auto;left: 0;margin: auto;position: absolute;right: 0;top: 0; width: auto;}
+
+
+
+.girls-job-dash-board-main{border-bottom:1px solid #ededed; height:64px;}
+.resp-tabs-list.girls-job-dash-board  li{ font:14px/14px 'roboto_slabbold'; color:#292f36; text-transform:uppercase; margin:0px; background:none !important; padding:24px 37px; border:1px solid #fff !important; border-top:2px solid #fff !important; position:relative; z-index:9; border-bottom:1px solid #ededed !important;}
+.resp-tabs-list.girls-job-dash-board  li.resp-tab-active{ border:1px solid #e9e9eb !important; border-top:2px solid #c43db0 !important; border-bottom:1px solid #fff !important; }
+.resp-tabs-list.girls-job-dash-board  li span{ background:#f56a25; position:absolute; border-radius:50%; text-align:center; font:10px/14px 'roboto_slabbold'; color:#fff; display:inline-block; padding:4px 5px; top:10px; right:18px;}
+.girls-job-dash-board-outer .resp-tab-content{ padding:0px;}
+.girls-job-dash-board-outer{ padding-bottom:60px;}
+.girls-job-dash-board-outer .resp-tabs-container{ padding-top:17px;}
+.girls-job-dash-board-dedtails{ padding:49px 44px 49px 59px; position:relative; border:2px solid #f59625; margin-top:20px;}
+.girls-job-dash-board-dedtails.girls-job-dash-board-dedtails1{border:2px solid #4fad57;}
+.dashbord-girl-job-left{ width:860px; float:left; padding-right:54px; box-sizing:border-box;}
+.dashbord-girl-job-left-top{ border-bottom:1px dashed #d8d4d4; margin-bottom:40px;}
+.dashbord-girl-job-left-top li  {float:left; width:31%}
+.dashbord-girl-job-left-top li img{}
+.dashbord-girl-job-left-top li figure{ min-height:124px; float:left; padding-right:9px;}
+.dashbord-girl-job-left-top li h3{ overflow:hidden;font:13px/13px 'montserratregular'; color:#807e7d; text-transform:uppercase; padding-bottom:7px;}
+.dashbord-girl-job-left-top li h4{ overflow:hidden;font:20px/20px 'montserratlight'; color:#3e3b3a; padding-bottom:17px;}
+.dashbord-girl-job-left-top li P{font:14px/24px 'montserratlight'; color:#55595f; margin-bottom:7px;}
+.dashbord-girl-job-left-top li a{ overflow:hidden; font:13px/24px  'montserratsemi_bold'; color:#55595f; text-transform:uppercase;}
+.dashbord-girl-job-left-top li a img{ vertical-align:middle; padding-right:8px;}
+.dashbord-girl-job-left-top li:last-child{ width:37%;}
+.dashbord-girls-job-right{float:right; width:230px;}
+.dashbord-girls-job-right img.clint-pro-two{ height:31px; width:31px; border-radius:50%; vertical-align:middle; margin-right:10px;}
+.dashbord-girls-job-right h3{font:13px/31px 'montserratlight'; color:#404446; text-transform:uppercase;}
+.girls-job-dash-board-dedtails.girls-job-dash-board-dedtails1 .total-girls-amount-section{ min-height:245px;}
+ .dashbord-girls-job-right .total-girls-amount-section{ background:#f4f4f4;  text-align:center; padding:27px 25px 25px; box-sizing:border-box; margin-top:17px; border-radius:3px;}
+ .total-girls-amount-section h4{ font:15px/15px 'roboto_slabbold'; color:#343434; text-transform:uppercase; padding-bottom:6px;}
+ .total-girls-amount-section h5{ font:37px/37px 'roboto_slabbold'; color:#c13db3; padding-bottom:8px;}
+ .total-girls-amount-section h6{ font:14px/14px 'montserratbold'; color:#292f36; text-transform:uppercase; padding-bottom:25px;}
+ .total-girls-amount-section a{ width:100%; display:block; font:13px/45px 'montserratregular'; color:#292f36; text-transform:uppercase; margin-bottom:8px; border-radius:2px;}
+ .total-girls-amount-section .view_profile{ color:#fff; background:#52af57; border:2px solid #52af57;}
+ .total-girls-amount-section .amend_order{ border:2px solid #b1b1b1;}
+ .total-girls-amount-section .cancle_the_order{ border:2px solid #ed4f44;}
+ .conformed-rebn{ position:absolute; top:0px; right:0px; z-index:99;}
+ .girl-jobs-of-box{ width:46%; float:left; margin-right:4%;}
+ .girl-jobs-of-box:last-child{ margin-right:0px; float:right;}
+  .girl-jobs-of-box h3{ font:16px/16px 'roboto_slabbold'; color:#292f36; text-transform:uppercase;padding-left:8px;  padding-bottom:20px; border-bottom:1px solid #eceaea; display:block; float:none; padding-top:0px;}
+  .girl-jobs-of-box ul{ padding:10px 0 33px 0; width:100%; display:block; border-bottom:none;}
+  .girl-jobs-of-box ul li{ display:block; width:100%;}
+  .girl-jobs-of-box ul li h6{ font:14px/30px 'montserratregular'; color:#44484e; width:53%; display:inline-block; padding-left:8px;}
+  .girl-jobs-of-box ul li .price-of-girl{ display:inline-block; width:22%; font:14px/14px 'montserratsemi_bold'; color:#292f36; text-align:right;}
+ .girl-jobs-of-box ul li .hours-of-girl{display:inline-block; width:18%; float:right; padding-top:5px; font:14px/14px 'montserratbold'; color:#292f36; text-align:right;}
+ .client-chat-grils-job{ text-align:center; margin-top:7px;}
+ .client-chat-grils-job h6 img{ vertical-align:middle; margin-right:12px;}
+ .client-chat-grils-job h6{ font:13px/45px 'montserratregular'; text-transform:uppercase; color:#292f36; border:2px solid #e3e3e4; cursor:pointer; border-radius:3px;}

@@ -1,0 +1,110 @@
+
+
+
+.sign-in-banner { background:url(../images/sign-up-banner.jpg) no-repeat top center;  margin:0px auto; position:relative;}
+.sign-in-page { background:#fff; width:1046px; margin:122px auto;}
+.sign-in-left { width:466px; float:left; line-height:0px; }
+.sign-in-right { width:580px; float:right; padding-top: 116px;}
+
+.sign-in-right .login-form { width:345px; margin: 0 auto;}
+.sign-in-title{width:345px; margin: 0 auto; padding:20px 0 7px;}
+.sign-in-title h3{font:27px/31px "montserratsemi_bold"; color:#000000; text-transform:uppercase; }
+.sign-in-right .login-form input {  height: 53px;  width: 100%; margin: 6px 0; box-sizing:border-box; padding:0 15px; font:12px/12px 'montserratlight'; color:#141414;  border:1px solid #ddddde;}
+.sign-in-right .login-form button {  width: 100%;  border: none; background: linear-gradient(-90deg, #ac36c3, #e24699); font:15px/55px 'montserratregular'; text-transform:uppercase; color:#fff;  display: block;  
+cursor: pointer;}
+.remender { padding:5px 0 16px;}
+.forgot{color: #9d16b6; display: inline-block; float: right;font: 13px/23px "montserratlight";}
+input::-webkit-input-placeholder {
+color: #141414 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #141414 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #141414 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #141414 !important;  
+}
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 29px;
+  cursor: pointer;
+  font:12px/12px 'montserratlight'; color:#000000;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: -2px;
+  width: 18px; height:18px;
+  border: 1px solid #49a50b;
+  background: #fff;
+  
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+   color: #49a50b;
+    content: "";
+    font-size: 16px;
+    left: 4px;
+    line-height: 0.8;
+    position: absolute;
+    top: 2px;
+	background:url(../images/right-arrow-check.png) no-repeat; 
+	height:10px; width:11px;
+    transition: all 0.2s ease 0s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+
+}
+
+/* hover style just for information */
+label:hover:before {
+
+}
+.sign-in-form-error {font:14px/12px 'montserratlight'; color:#f00;}
+.forgot-error {font:14px/12px 'montserratlight'; color:#f00;}
+.sign-in-form-head-error{font:14px/14px 'montserratlight'; color:#f00;}
+.sign-in-form-head-success{font:14px/14px 'montserratlight'; color:#008000;}
+#forgot-loader{display:none;}
+.reset-pass-success{ color:#0a8d07;}
+.invalid-token{ color:#ff0808;}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<title>Babbies</title> 
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head> 
+ 
+ <body>
+<div class="wrapper">
+<!--<div class="container"> -->
+<header class="cf">
+<div class="logo"><a href="#"><img src="images/logo.png" alt="logo" /></a></div>
+<div class="nav"><ul><li><a href="#"><span><img src="images/home-icon.png" alt="image"></span>Home</a></li><li><a href="#"><span><img src="images/home-icon2.png" alt="image"></span>Girls</a></li><li><a href="#"><span><img src="images/home-icon3.png" alt="image"></span>Guys</a></li><li><a href="#"><span><img src="images/home-icon4.png" alt="image"></span>How it Works</a></li><li><a href="#"><span><img src="images/home-icon5.png" alt="image"></span>Contact</a></li></ul>
+<div class="login-section">
+
+<span class="sign-in"><a  href="#"><span class="icon"><img src="images/lock-icon.png" alt="image"></span>sign in</a></span>
+<span class="sign-up"><a  href="#"><span class="icon"><img src="images/key-icon.png" alt="image"></span>sign up</a></span>
+<span class="book-now"><a  href="#">Book Now</a></span>
+
+</div><!--logon-section -->
+</div>
+
+</header><!--header -->
+<div class="banner sign-up-banner">
+
+<div class="container"> 
+<div class="sign-up-page">
+<div class="sign-up-left">
+<figure><img src="images/sign-up-left.jpg"></figure>
+</div>
+
+<div class="sign-up-right">
+<ul class="tabs-menu">
+  <li class="current"><a href="#tab-1"><figure><img src="images/sign-up-tab.png" alt="image"></figure><span>sign up as a girls/Guys</span></a></li>
+<li><a href="#tab-2"><figure><img src="images/sign-client.png" alt="image"></figure><span>sign up as a clients</span></a></li>
+</ul>
+<div class="login-form tab">
+<div id="tab-1" class="tab-content">
+<form>
+     <input type="text" placeholder="User Name *" name="uname" >
+    <input type="password" placeholder="Password *" name="psw" >
+	<input type="password" placeholder="Repeat password *" name="rpsw" >
+	<input type="text" placeholder="Email *" name="email" >	
+    <button type="submit">Complete Registration</button>
+  </form>
+</div>
+<div id="tab-2" class="tab-content">
+<form>
+     <input type="text" placeholder="User Name *" name="uname" >
+    <input type="password" placeholder="Password *" name="psw" >
+	
+	<input type="text" placeholder="Email *" name="email" >	
+    <button type="submit">Complete Registration</button>
+  </form>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+</div><!--banner -->
+
+
+
+                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<ul>
+<li><a href="#">how it works</a></li>
+<li><a href="#">Advertising</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Terms and conditions</a></li>
+<li><a href="#">Privacy Policy</a></li>
+
+</ul>
+<div class="copyright">
+copyright 2016 @ Babes direct
+</div>
+</footer><!--footer -->
+</div><!--featured-girl -->
+
+
+
+
+
+
+
+</div><!--container -->
+</div><!--wrapper -->
+
+
+
+ 
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<!----tab js -------------> 
+<script>
+ $(document).ready(function() {
+    $(".tabs-menu a").click(function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-content").not(tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+});
+ </script>
+           
+   </body> 
+   </html> 

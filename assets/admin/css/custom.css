@@ -1,0 +1,12 @@
+/*
+ * Custome css as this will override any changes you make in the 
+ * 
+ */
+
+.col-xs-12.col-sm-12.col-md-5.col-lg-4.login-area{
+    float: none;
+    margin: 0 auto;
+}
+
+
+ 

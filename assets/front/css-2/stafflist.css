@@ -1,0 +1,156 @@
+.banner-bg-image { position:relative; margin:0px auto 0; text-align:center;width:100%; line-height:0px;}
+.listing-text { text-align:center; font:63px/76px 'lobster_1.0regular'; color:#fff; margin:0 auto; width:600px; padding-top:60px; position:absolute; top:0px; left:0px; right:0px; z-index:99;}
+
+.banner.banner-bg-image .staff-listing-banner > img {
+   width:100%; max-height:351px;
+}
+.staff-listing-banner{ overflow:hidden; width:100%;}
+/*---------------search-module----------------------------*/
+
+.search-module {  background:rgba(0, 0, 0, 0.7) none repeat scroll 0 0;  bottom: 0px;  height:84px;  color: #fff;   position: absolute;  width: 100%; z-index:999;}
+.search-module h2 { float:left; background:url(../images/search-hed.png) no-repeat; width:19%; text-align:right; position:relative;font:22px/22px 'roboto_slabbold'; padding:31px 45px; text-transform:uppercase; background-size:100% 100%;}
+.search-module h2:after { background:url(../images/search-module.png) no-repeat; content:""; right:-60px; width:60px ; top:0px; height:84px; position:absolute;}
+.search-service-module {  float: left;  padding: 17px 70px;  width: 63%;
+  font:12px/50px 'montserratlight'; text-align:left;}
+.service-module {  width: 270px;  float: left;  background:#fff;height:50px; color:#000; text-align:left;
+   padding-left:15px;   position:relative;   cursor:pointer;}
+.service-module .selectboxit-container .selectboxit-options {  background: #f2f2f3;  color: #000;
+  font:12px/25px 'montserratlight';  text-transform:capitalize;  left: 0;  display:none;  padding-left:0px;  position: absolute;
+  width: 100%;  z-index: 9;  box-sizing:border-box;}
+.service-module .selectboxit-text { display:block; max-width:100% !important; text-align:left;}
+.service-module:after, .gender-module:after, .location-module:after {background:url(../images/red-arrow.png) no-repeat; content:""; right:10px; width:5px ; top:22px; height:5px; position:absolute;}
+.gender-module {  width: 123px;  float: left;   background:#fff;  height:50px; color:#000;   padding-left:15px;   border-left:1px solid #eee;   border-right:1px solid #eee;
+   position:relative;   cursor:pointer;    text-transform:capitalize;}
+.gender-module .selectboxit-container .selectboxit-options {  background: #f2f2f3;  color: #000;  font:12px/25px 'montserratlight';  text-transform:capitalize;  left: 0;  display:none;  padding-left:0px;  position: absolute;  width: 100%;  z-index: 9;  box-sizing:border-box;}
+.gender-module .selectboxit-text { display:block;}
+.location-module {  width: 140px;  float: left;   border-right:1px solid #eee;    height:50px; color:#000;
+   position:relative;   cursor:pointer;  }
+   .location-module .selectboxit-text{ background:#fff;  border-radius:4px 0 0 4px;  padding-left:15px; }
+   .location-module .selectboxit-open .selectboxit-text{ background:#fff;  border-radius:4px 0 0 0px;  padding-left:15px; }
+.location-module .selectboxit-container .selectboxit-options {  background: #f2f2f3;  color: #000;  font:12px/25px 'montserratlight';  text-transform:capitalize;
+  left: 0;  display:none;  padding-left:0px;  position: absolute;  width: 100%;  z-index: 9;   box-sizing:border-box;}
+.location-module .selectboxit-text { display:block; max-width:100% !important;}
+.search-button {  width: 113px;  float: left;  background:#da1180; border-radius:0px 4px 4px 0px; height:50px; color:#fff; cursor:pointer;   border:none;}
+.advance-search h5 a { float:left; padding-left:15px; font:13px/52px 'proxima_novalight'; color:#ffffff;}
+.advance-search .ad-search { margin-left:10px; vertical-align:top;}
+
+.selectboxit-option { padding:3px 16px;} 
+.selectboxit-option:hover {  background:#ddd;}
+.choose_location .selectboxit-container span{
+  display: block;
+  font:15px/45px 'roboto_slabregular'; color:#3e3b3a;
+  
+}
+
+
+.Topless {   margin: 0 auto;  width: 100%;}
+.Topless h3 { font:40px/22px 'roboto_slabregular'; color:#3e3b3a; text-align:center; padding-top:40px; padding-bottom:20px;}
+.no-result-found{ margin-top:60px;}
+.Topless h3 span { padding-right:5px;}
+.Topless h3 span + span { padding-left:2px;}
+.Topless h3 span img { vertical-align:middle;}
+.Topless  p.center { text-align:center; font:14px/22px 'montserratlight'; color:#55595f; padding:0 100px;}
+.topless-waitress {
+  display: inline-block;
+  margin: 20px auto 0px;
+}
+.topless-service-left { width:270px; float:left; padding-left:0px; padding-right:40px; padding-bottom:30px; box-sizing:border-box;}
+.topless-service-left .service-left h4 {font:15px/22px 'roboto_slabbold'; color:#3e3b3a; padding-bottom:8px;  }
+.topless-service-left .service-left form { font:14px/22px 'montserratlight'; color:#55595f; }
+.topless-service-left .service-left form input { margin-right:15px; vertical-align:middle;}
+
+
+
+.service-left .checkbox-custom {    opacity: 0;    position: absolute; }
+.service-left .checkbox-custom, .checkbox-custom-label{ font:11px/32px 'montserratregular'; color:#6e6d74;    display: inline-block;    vertical-align: middle;    margin: 5px;    cursor: pointer;}
+.service-left .checkbox-custom-label{    position: relative;}
+.service-left .checkbox-custom + .checkbox-custom-label:before{  content: "";    background: #fff;    border: 1px solid #ddd;    display: inline-block;    vertical-align: middle;
+    width: 18px;    height: 18px;    padding: 0px;    margin-right: 10px;    text-align: center;}
+.service-left .checkbox-custom:checked + .checkbox-custom-label:before {    background:url(../images/right-arrow.jpg) no-repeat 2px 1px; width:18px;  height:18px; content:"";    border:1px solid #cb2fa1;}
+.service-left .checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */}
+  .submit-button > button  { background:none;  float: left; border:none; height:36px;   width: 110px;border-radius:4px;  }
+  .submit-button > button.sort   {font:14px/22px 'roboto_slabbold'; color:#fff; background:#cb2fa1; margin-right:6px;  border:none; cursor:pointer;  }
+ 
+  .submit-button > button.reset { background:#fff; font:14px/22px 'roboto_slabbold'; color:#000000; margin-right:6px;  border:1px solid #c8c8ca;  cursor:pointer;}
+  .submit-button{ margin-bottom:20px;}
+  #searching-staff-left-form{ clear:both;}
+  
+
+.service-left {
+  float: left;
+  width: 100%;
+  margin-bottom:21px;
+}
+.service-left:first-child{ margin-top:50px;}
+.service-left div {
+  float: left;
+  width: 110px;
+}
+
+
+.topless-service-right { width:890px; float:right;  }
+.choose-price h4 {font:15px/22px 'roboto_slabbold'; color:#3e3b3a; text-transform:uppercase; margin-bottom:17px; }
+.choose-price:first-child{ margin-top:15px;}
+.choose-price + .choose-price +.choose-price{ margin-bottom:60px;}
+.choose-price {  margin-top: 53px;}
+.choose_location { position:relative;width:225px; margin-bottom:8px;}
+.choose_location:after { position:absolute; background:url(../images/red-arrow.png) no-repeat; width:5px; height:5px; content:""; top:20px; right:15px;}
+.topless-service-right .view {  background: #fff;    float: left;    height: 100%;    margin: 6px 7px 10px;    overflow: hidden;    position: relative;    text-align: center;    width: 207px;}
+.topless-service-right .view .mask, .topless-service-right .view .content {  height: 100%;  left: 0;  overflow: hidden;  position: absolute;
+  top: 0;  width: 207px;}
+.topless-service-right .view img {  display: block;  position: relative;}
+.topless-service-right .view-prof { position:relative;}
+.topless-service-right .view-prof::after {  background: rgba(0, 0, 0, 0) url("../images/heart.png") no-repeat scroll 0 0;  content: "";  display: block;  height: 21px;  position: absolute;  right: 5px;  top: 19px;  width: 23px;}
+
+.topless-service-right .form-rate {  background: #de2e8f none repeat scroll 0 0;  border-radius: 0 0 3px 3px;
+  color: #fff;  font: 15px/19px "roboto_slabbold";  padding: 18px;  position: relative;  text-transform: uppercase;  z-index: 1;  display:block;}
+
+.topless-service-right .view-eighth:hover .mask {  opacity: .8;  transition: opacity 0.25s ease-in-out 0s;  }
+.topless-service-right .view-eighth .mask {   border:none;  box-sizing: border-box;  opacity: 0;  position:absolute;  transition: opacity 0.25s ease-in-out 0s;}
+.topless-service-right .name {font:16px/20px 'roboto_slabbold'; color:#262421; padding-top:15px; text-transform:uppercase;text-align:left; }
+.topless-service-right .age { text-transform:uppercase; font:11px/22px 'montserratregular'; color:#767473; text-align:left; }
+.pagination-section {  float: left;  width: 100%;}
+
+
+.topless-service-right .pagination-section {  width: 100%; padding-top:20px; padding-bottom:20px;  border-top:1px solid #ecedee;  float: left;}
+.topless-service-right .pagination-section ul.pagination {    display: inline-block;    padding: 0;    margin: 0;	float:right;}
+
+.topless-service-right .pagination-section ul.pagination li {display: inline;}
+
+.topless-service-right .pagination-section ul.pagination li a { margin:2px;   color: #6a7279;    float: left;    padding: 8px 16px;
+    text-decoration: none;    transition: background-color .3s;    border: 1px solid #c6c7c8;}
+
+.topless-service-right .pagination-section ul.pagination li a.active {    background-color: #f7f7f7;    color: #6a7279;    border: 1px solid #c6c7c8;}
+
+.topless-service-right .pagination-section ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+.girls-so-good { margin:0 auto; width:100%; background:#f7f7f7;}
+.good-girl {display:inline-block; padding:35px 0;}
+.good-girl-left {width:50%; float:left; box-sizing:border-box;}
+.good-girl-left h3 {font:45px/54px 'roboto_slabbold'; color:#d81685; padding-bottom:10px;}
+.good-girl-left p {font:14px/22px 'montserratlight'; color:#55595f; padding-bottom:15px;}
+.good-girl-right {width:50%; float:right; text-align:right; box-sizing:border-box; padding-right:8px;}
+.loader {
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 180px;
+    z-index:9;
+}
+#loader-parent{
+	display:none;
+}
+.loader-wrapper{position: fixed; height:100%; width:100%; background:#000; opacity:0.5; left:0; top:0;}
+.clear-all {
+    color: #767473;
+    cursor: pointer;
+    float: right;
+    font: 11px/22px "montserratregular";
+}
+.view-eighth img{width:207px; height:260px;}

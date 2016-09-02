@@ -1,0 +1,92 @@
+
+/* 
+Created on: 17 Sep, 2014, 4:29:37 PM
+Author: senthil
+*/
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 38px;
+	float: left;
+	margin-right:12px;
+	font-size: 20px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+.meridian{ margin-right:0px;}
+
+.prev{
+	cursor: pointer;
+	height:15px;
+	width:27px;
+	margin: auto;
+	background: url(../images/date-picker-top.jpg) no-repeat 7px 0px;
+	border-radius: 5px;
+}
+
+.next {
+	cursor: pointer;
+	height:15px;
+	width:27px;
+	margin: auto;
+	background: url(../images/date-picker-bottom.jpg) no-repeat 7px 0px;
+	border-radius: 5px;
+}
+
+.time_pick {
+	position: relative;
+}
+
+.timepicker_wrap {
+	padding:19px 29px;
+	box-sizing:border-box;
+	border-radius: 5px;
+	z-index: 998;
+	display: none;
+	background: #ffffff;
+	border: 1px solid #cbcdd4; 
+	float: left;
+	position: absolute;
+	top: 27px;
+	left: 0;
+	 width:200px; margin-top:40px;
+}
+.timepicker_wrap:before{ position:absolute; content:''; top:-7px; background: url(../images/.timepicker_wrap-af.png) no-repeat; left:30px; width:12px; height:7px;}
+
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	background: url(../images/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #cdcdcd;
+    	border-radius: 3px;
+		height:27px;
+    	float: none;
+    	margin: 0;
+    	text-align: center;
+    	width: 34px;
+		-webkit-box-shadow: inset 1px -1px 2px -13px rgba(242,242,242,1);
+-moz-box-shadow: inset 1px -1px 2px -13px rgba(242,242,242,1);
+box-shadow: inset 1px -1px 2px -13px rgba(242,242,242,1);
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}

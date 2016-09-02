@@ -1,0 +1,93 @@
+
+
+
+/*client-page-rechard-outer-css*/
+.client-page-richard-outer{ padding-top:26px; border-bottom:1px solid #e8e8ea;}
+.client-details-section {float: left; overflow: hidden; width:60%; display:table;}
+.clent-richaed-main-box figure{ height:162px; width:162px; display:table-cell; margin-right:25px; vertical-align:top;}
+.clent-richaed-main-box figure a{ padding-right:0px;}
+.client-view-div {
+    display: table-cell;
+    padding-left: 35px;
+    padding-top: 32px;
+    vertical-align: top;
+}
+.client-edit-div {
+    display: table-cell;
+    padding-left: 35px;
+    padding-top: 28px;
+    vertical-align: top;
+}
+.client-edit-div a{
+background: #cb2fa1  none repeat scroll 0 0;
+    border: 1px solid #cb2fa1;
+    color: #fff !important;
+    cursor: pointer;
+    font: 14px/22px "roboto_slabbold";
+    margin-right: 6px; text-align:center; padding:0 25px; text-transform:uppercase; border-radius:3px;
+}
+.client-edit-div a.update{
+background: #4dad57  none repeat scroll 0 0;
+border: 1px solid #4dad57;
+}
+
+.clent-richaed-main-box figure img{ max-width:100%; border-radius:50%;}
+.clent-richaed-main-box{ padding-bottom:28px;}
+.clent-richaed-main-box h1{ overflow:hidden; font:25px/25px 'roboto_slabbold'; color:#2e3338; text-transform:uppercase; padding-top:16px;}
+.clent-richaed-main-box  input{ width:48%; margin:7px 0px; height:35px;  border: 1px solid #ddddde; box-sizing: border-box; color: #141414; font: 12px/12px "montserratlight"; padding:0 15px;}
+.clent-richaed-main-box h1 a{ padding-right:0px; vertical-align:middle; padding-left:5px; line-height:25px;}
+.clent-richaed-main-box h1 a img{ vertical-align:baseline;}
+.clent-richaed-main-box a{ font:15px/38px 'montserratlight'; color:#686c70; display:inline-block; padding-right:16px;}
+.clent-richaed-main-box a img{ vertical-align:middle; margin-right:2px;}
+.client-mail-mo-section{ float:right; padding-top:25px;}
+.client-order-details{ padding-top:29px;}
+ .client-order-details h2{  display:block; font:18px/18px 'roboto_slabbold'; color:#292f36; text-transform:uppercase; }
+.client-mail-mo-section > h3{ font:16px/16px  'roboto_slabbold'; color:#292f36; text-transform:uppercase; overflow:hidden;   padding-top: 18px; padding-bottom:17px;}
+ .client-mail-mo-section > ul{ text-align:center; width:100%;}
+ .client-mail-mo-section > ul li{ display:inline-block; width:44%; text-align:center; margin-right: -4px;  border:1px solid #e5e7ed;}
+.notified-class{ background:#e5e7ed;}
+.client-mail-mo-section > ul li a{ font:16px/40px 'montserratlight'; color:#686c70; padding:5px 0px;}
+
+ .client-order-details-outer{ clear:both; background:#f9f9f9; padding-bottom:79px;}
+ .girl-details-clien-order{ padding:25px 53px 25px 20px; display:table; background:#fff; -webkit-box-shadow: 0px -1px 12px 0px rgba(71,70,71,0.1);
+-moz-box-shadow: 0px -1px 12px 0px rgba(71,70,71,0.1);
+box-shadow: 0px -1px 12px 0px rgba(71,70,71,0.1); position:relative;  box-sizing: border-box;}
+ .girl-details-clien-order-main{ padding-top:22px;}
+ .profile-pic-girl{ width:180px; display:table-cell;}
+  .profile-pic-girl figure{ vertical-align:top;}
+  .msg-me{ margin-top:10px; position:relative; }
+  .msg-me h4 img{ vertical-align:middle; margin-right:8px;}
+  .msg-me h4{font:13px/40px 'montserratregular'; color:#292f36; text-transform:uppercase; text-align:center; border:1px solid #e3e3e4; cursor:pointer; border-radius:3px;}
+
+ .about-girl-about-area{ width:933px; display:table-cell; vertical-align:top; padding-left:25px;}
+ .about-girl-about-area-head{ padding-bottom:20px; border-bottom:1px dashed #d8d4d4;}
+  .about-girl-about-area h3{ vertical-align:top;font:26px/26px 'roboto_slabregular'; color:#292f36; display:inline-block; float:left; padding-top:10px;}
+  
+  .about-girl-about-area ul{ float:right; padding-right:10px;}
+  .about-girl-about-area ul li{ width:25%; vertical-align:top; float:left; padding-left:8px;}
+  .about-girl-about-area-head li:first-child {
+    width: 45%; padding-left:0px;
+}
+  .about-girl-about-area ul li img{ float:left; margin-right:10px;}
+  .about-girl-about-area ul li h5{ font:13px/39px 'montserratregular'; color:#666872;}
+  .about-girl-about-area ul li p{font:13px/20px 'montserratregular'; color:#666872; overflow:hidden;}
+  .girl-services-of-client{ padding-top:23px; clear:left;}
+  .girl-services-of-client-box-main{ width:671px; float:left; padding-right:61px; box-sizing:border-box; }
+  .girl-services-of-client h3{ font:16px/16px 'roboto_slabbold'; color:#292f36; text-transform:uppercase;padding-left:8px;  padding-bottom:20px; border-bottom:1px solid #eceaea; display:block; float:none; padding-top:0px;}
+  .girl-services-of-client ul{ padding:10px 0 33px 0; width:100%; display:block; border-bottom:none;}
+  .girl-services-of-client ul li{ display:block; width:100%;}
+  .girl-services-of-client ul li h6{ font:14px/30px 'montserratregular'; color:#44484e; width:53%; display:inline-block;}
+  .girl-services-of-client ul li .price-of-girl{ display:inline-block; width:25%; font:14px/14px 'montserratsemi_bold'; color:#292f36;}
+ .girl-services-of-client ul li .hours-of-girl{display:inline-block; width:16%; float:right; padding-top:5px; font:14px/14px 'montserratbold'; color:#292f36;}
+ .total-girls-amount-section{ background:#f4f4f4; float:right; width:230px; text-align:center; padding:27px 25px 25px; box-sizing:border-box; margin-top:30px; border-radius:3px;}
+ .total-girls-amount-section h4{ font:15px/15px 'roboto_slabbold'; color:#343434; text-transform:uppercase; padding-bottom:6px;}
+ .total-girls-amount-section h5{ font:37px/37px 'roboto_slabbold'; color:#c13db3; padding-bottom:8px;}
+ .total-girls-amount-section h6{ font:14px/14px 'montserratbold'; color:#292f36; text-transform:uppercase; padding-bottom:25px;}
+ .total-girls-amount-section a{ width:100%; display:block; font:13px/45px 'montserratregular'; color:#292f36; text-transform:uppercase; margin-bottom:8px; border-radius:2px;}
+ .total-girls-amount-section .view_profile{ color:#fff; background:#52af57; border:2px solid #52af57;}
+ .total-girls-amount-section .amend_order{ border:2px solid #b1b1b1;}
+ .total-girls-amount-section .cancle_the_order{ border:2px solid #ed4f44;}
+ .conformed-rebn{ position:absolute; top:0px; right:0px; z-index:99;}
+
+
+

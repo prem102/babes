@@ -1,0 +1,31 @@
+
+.staff-edit-outer{ background:#edeef3; padding:32px 0px;}
+.staff-edit-outer h1{ text-align:left; clear:both; font:45px/45px 'roboto_slabregular'; color:#2e3338; text-transform:capitalize; padding-bottom:27px;}
+.staff-edit-outer h1 img{ margin-left:20px;}
+.tab-staff-edit{ background:#fff; margin-bottom:25px !important; border-radius:5px 5px 0 0;}
+.tab-staff-edit.resp-vtabs .resp-tabs-container{ border-left:1px solid #e2e3e8 !important; border:none; border-radius:0px;}
+.staff-edit-title{ background:#f6f6fa; padding:17px 25px 11px; box-sizing:border-box; border-radius:5px 5px 0 0; border-bottom:1px solid #ebecf2; height:67px;}
+.staff-edit-title h3{ font:14px/14px 'roboto_slabbold'; color:#292f36; text-transform:uppercase; display:inline-block; padding-top:12px;}
+.tab-staff-edit.resp-vtabs .resp-tabs-list li{ border:none !important; margin:0px !important; font:14px/14px 'montserratlight'; color:#292f36;
+text-transform:capitalize; padding:19px 30px !important;}
+.tab-staff-edit .resp-tab-content{ padding:22px 50px 70px;}
+.tab-staff-edit.resp-vtabs li.resp-tab-active{ color:#d02697; background:url(../images/edit-staff-active-img.jpg) no-repeat 0px 14px; }
+.tab-staff-edit.resp-vtabs ul.resp-tabs-list{ width:258px; padding-top:15px;}
+.tab-staff-edit.resp-vtabs .resp-tabs-container{ width:78.4%;}
+.staf-details-personal{ display:inline-block;}
+.staf-details-personal ul li{ display:block; border-bottom:1px solid #edeef3; padding:19px 0px;}
+.staf-details-personal ul li label{ width:240px; display:inline-block; font:14px/14px 'montserratlight'; color:#42464c;  text-transform:capitalize;}
+.staf-details-personal ul li span{width:240px; display:inline-block;  font:14px/14px 'montserratlight'; color:#2e3338; text-transform:capitalize;}
+
+
+.resp-vtabs .resp-tab-content{}
+.add-staff-field { float:right; font:13px/36px 'roboto_slabbold'; color:#0d0d0d; text-transform:uppercase; padding:0 29px; background:#ededf4; display:inline-block; border:1px solid #d6dcdf; border-radius:3px;}
+.edit-gallery-staf-main ul li{ width:125px; float:left; margin-right:15px; margin-bottom:15px; position:relative;  line-height:0px;}
+.edit-gallery-staf-main  h4{ font:14px/14px 'roboto_slabbold'; color:#292f36; text-transform:uppercase;  padding-bottom:15px;}
+.edit-gallery-staf-main ul li:nth-child(5n+1){ clear:both;}
+.staff-edit-pic-hov{ position:absolute; width:100%; height:100%; left:0; top:0; background:url(../images/staff-edit-pic-hov-bg.png) repeat; display:none;
+}
+.staff-edit-pic-hov a{ position:absolute; left:0; top:0; right:0; top:0; display:inline-block; margin:auto; width:22px; height:26px; bottom:0; line-height:0px;}
+.edit-gallery-box{padding-top:24px;}
+.edit-gallery-staf-main ul li:hover .staff-edit-pic-hov{ display:block;}
+.edit-gallery-box.edit-gallery-box-profileimg {float: left;}

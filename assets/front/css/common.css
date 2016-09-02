@@ -1,0 +1,229 @@
+/* CSS Document */
+
+* { margin:0; padding:0; outline:0; outline:none !important;}
+.nobdr { border:none !important; }
+.nobg { background:none !important; }
+.nobdr_top { border-top:none !important; }
+.nomargin { margin:0px !important; }
+.nomargin-top{margin-top:0 !important;}
+.nomargin-left { margin-left:0px !important; }
+.nomargin-right { margin-right:0px !important; }
+.nopadding { padding:0px !important; }
+.alignbottom { vertical-align:text-top; }
+img {height: auto;  border:0; max-width:100%;}
+ul { list-style-type:none; padding:0; margin:0; }
+ul li { list-style:none; padding:0; margin:0; }
+a { text-decoration:none; outline:none; }
+aside, details, figcaption, figure, ins, summary, small, mark, title, video, footer, header, hgroup, nav, section, article { display: block; }
+.clear { padding:0; margin:0; clear:both; }
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0;}
+html, body { height: 100%; width: 100%; padding: 0; margin: 0;}
+.cf:before,.cf:after {content: " "; display: table;}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+body{ margin:0px; padding:0px; background:#fff;position: relative; width:100%;}
+html{ margin:0px; padding:0px; width:100%;}
+a:hover, a:focus{outline:none; text-decoration:none; outline:none !important;}
+
+
+
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url('fonts/robotoslab-bold-webfont-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-bold-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dancing_scriptbold';
+    src: url('fonts/dancingscript-bold-webfont.woff2') format('woff2'),
+         url('fonts/dancingscript-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('fonts/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('fonts/robotoslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'lobster_1.0regular';
+    src: url('fonts/lobster_1.0_-webfont.woff2') format('woff2'),
+         url('fonts/lobster_1.0_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('fonts/proximanova-light.eot');
+    src: url('fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light.woff') format('woff'),
+         url('fonts/proximanova-light.ttf') format('truetype'),
+         url('fonts/proximanova-light.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'acanty_light_lyslight';
+    src: url('fonts/lf00152-webfont.woff2') format('woff2'),
+         url('fonts/lf00152-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'MinionPro-Regular';
+  src: url('fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/MinionPro-Regular.otf')  format('opentype'),
+  url('fonts/MinionPro-Regular.woff') format('woff'), 
+  url('fonts/MinionPro-Regular.ttf')  format('truetype'), 
+  url('fonts/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*-----------header---------------*/
+.wrapper { width:100%; margin:0 auto;}
+.container {width:1200px; margin:0 auto;}
+header { background:#fcfdfd;width:100%;  position:relative; z-index:999; text-align:center; height:64px;}
+.logo { float:left; width:264px; padding:19px 25px 13px;}
+.nav { display:inline-block;}
+.nav ul {float:left; }
+.nav ul li { float:left; padding:0 20px;}
+.nav ul li:first-child { padding-left:0px;}
+.nav ul li a { color:#484848; font: 12px/22px 'montserratsemi_bold';  text-transform:uppercase; padding:23px 0; display:inline-block;}
+.nav ul li a span { padding-right:10px; display:inline-block; vertical-align:middle; }
+.login-section { width:auto; float:right; text-transform:uppercase; color:#484848; font: 12px/22px 'montserratsemi_bold';}
+.login-section span.heart-bg { position:relative; margin-top:18px; padding-right:18px; padding-left:18px;}
+.login-section span.heart-bg a { background:url(../images/heart-bg.png) no-repeat;  color:#c13db3; cursor:text; text-align:center; font: 11px/25px 'montserratsemi_bold'; width:30px; height:27px; display:inline-block;}
+.login-section span { display:block; float:left;}
+.login-section span.sign-in a { background:#0d0d0d; color:#fff; padding:21px 22px 22px; display:inline-block; border-right:1px solid #424242;}
+.login-section span.sign-up a { background:#0d0d0d; color:#fff; padding:21px 22px 22px; display:inline-block; }
+.login-section span.book-now a { background-image:url(../images/book-now.jpg);  color:#fff; font: 14px/24px 'montserratsemi_bold'; padding:20px 18px 21px 20px; display:inline-block;}
+.login-section span.icon { padding-right:10px; vertical-align:middle; display:inline-block;}
+
+/*-----------end of header---------------*/
+
+
+
+
+/*-----------footer---------------*/
+
+footer { background: #ac36c3;   background: -o-linear-gradient(-90deg, #ac36c3, #e24699);  background: -moz-linear-gradient(-90deg, #ac36c3, #e24699);  background: linear-gradient(-90deg, #ac36c3, #e24699); width:100%; text-align:center;  padding:30px 0; clear:both;}
+footer ul li { display:inline-block;  padding:0 15px;}
+footer ul li a{ font:11px/22px 'montserratlight'; color:#fff; text-transform:uppercase;}
+footer .copyright { padding-top:8px; font:11px/22px 'montserratlight';  color:#ebb2d4; text-transform:uppercase;}
+
+/*-----------end of footer---------------*/
+
+
+/*new-header-section*/
+header{-webkit-box-shadow: 0px 8px 5px 0px rgba(248,248,248,1);
+-moz-box-shadow: 0px 8px 5px 0px rgba(248,248,248,1);
+box-shadow: 0px 8px 5px 0px rgba(248,248,248,1);}
+.reset-header-class header{ box-shadow:none;}
+.login-section span.heart-bg{ border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc;}
+.notification-num-area{ margin-top:18px; display:inline-block; padding:0 10px 0 15px; position:relative;}
+.notification-num{ position:absolute; right:7px; top:-4px; width:17px; height:17px; border-radius:50%; background:#f59f25; font:11px/16px 'roboto_slabbold'; color:#fff;}
+.dropdown {float: left;width:200px; text-align:left; background:#232527; padding:16px 23px 12px 22px; position:relative; box-sizing:border-box;}
+.dropbtn img{border-radius:50%;   vertical-align: middle; margin-right:5px;}
+.dropbtn{ font:14px/14px 'montserratregular'; color:#fff; text-transform:capitalize; background:url(../images/arrow-head2.png) no-repeat  100% 15px; display:block;}
+.dropdown-content{ display:none; width:100%; position:absolute; top:100%; left:0px; background:#232527;  box-sizing:border-box;}
+.notification-drop-down1 { background: #fff none repeat scroll 0 0; box-sizing: border-box;display: none; left: -200px;  position: absolute; top:50px; width:400px;}
+.notification-drop-down1.show {  display: block;}
+.dropdown-content.show{ display:block;}
+.dropdown-content ul li a{font:12px/40px 'montserratlight'; color:#fff; text-transform:capitalize;}
+.dropdown-content ul{padding:6px 0 26px 28px;}
+.log-out{ text-align:center; background:#181a1c; padding:5px 0 5px 0px;}
+.log-out a img{ vertical-align:middle; margin-right:14px;}
+.log-out a{ font:11px/40px 'montserratlight'; color:#fff;}
+.notification-drop-down1{ text-align:left; padding:10px; border:1px solid #e3e3e4;}
+.notification-drop-down1:after{
+width: 0;
+height: 25px;
+border-style: solid;
+border-width: 0 13px 17px 13px;
+border-color: transparent transparent #e3e3e4 transparent; position:absolute; content:''; top:-42px; left:53%;}
+
+.notification-num-area > a {
+    display: inline-block;
+}
+.notife-mg-area{display:table-cell; vertical-align:top; padding-left:15px;}
+.noti-profile-pic{ display:table-cell; width:50px; vertical-align:top;}
+
+.noti-profile-pic > img {
+    border-radius: 50%;
+}
+.notifile-msg-det{ display:table; width:100%; padding:10px 0px; border-bottom:1px solid #e3e3e4;}
+.notife-mg-area > h6{ font:14px/18px "roboto_slabbold"; color:#292f36; text-transform:capitalize;}
+.notife-mg-area p{
+ color: #44484e;
+    display: inline-block;
+    font: 14px/20px "montserratregular"; text-transform:none;}
+.heart-bg1{ border:none;}
+.login-profile-image{height:37px;width:37px;}
+
+
+/*header-staff*/
+.girls-job-price-head{ margin-top:20px;}
+.girls-job-price-head .girls-job-credit{ font:12px/22px 'montserratregular'; color:#666872; display:inline-block; padding-right:5px;}
+.girls-job-price-head .gils-job-doler{ font:16px/22px 'montserratregular'; color:#141414; display:inline-block; padding-right:27px;}
+.girls-job-price-head .gils-job-doler img{ vertical-align:middle; padding-right:3px;}
+.dropdown.dropdown-gils-job{ background:url(../images/dropdown-dropdown-gils-job-bg.jpg) repeat; background-size:100%;}
+.dropdown.dropdown-gils-job .dropdown-content{ background:url(../images/dropdown-dropdown-gils-job-bg.jpg) repeat; background-size:100%;}
+.selectboxit-options.selectboxit-list{ max-height:300px; overflow:visble; overflow-y:auto;}
